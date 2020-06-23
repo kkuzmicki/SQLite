@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements StudentRecyclerVi
         adapter = new StudentRecyclerViewAdapter(this, studentList); // ustawinie listenera dla adaptera
         adapter.setClickListener(this);
         recyclerView.setAdapter(adapter);
+
+        System.out.println("test");
     }
 
     @Override
