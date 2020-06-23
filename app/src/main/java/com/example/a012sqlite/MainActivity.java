@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements StudentRecyclerVi
         recyclerView.setAdapter(adapter);
 
         System.out.println("test");
+        System.out.println("testtest");
     }
 
     @Override
